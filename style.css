@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  background-color: #e08a08;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav li:first-child {
+  margin-left: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.intro {
+  padding: 20px;
+  text-align: center;
+}
+
+.option {
+  padding: 20px;
+  text-align: left;
+}
+
+ul{
+  padding: 0%;
+}
+
+.text {
+  text-align: left;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+#inicio h2::after {
+  content: "";
+  display: block;
+  background-image: url("/seating-g51e178b75_640.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 350px; /* Ajuste a largura da imagem conforme necessário */
+  height: 250px; /* Ajuste a altura da imagem conforme necessário */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  margin-top: 20px; /* Adiciona um espaçamento entre o texto e a imagem */
+}
+
+@media screen and (max-width: 768px) {
+  header {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  header h1 {
+      margin-bottom: 10px;
+  }
+
+  nav {
+      margin-top: 10px;
+  }
+
+  nav ul {
+      flex-direction: column;
+  }
+
+  nav li {
+      margin: 5px 0;
+  }
+}
+
+#contato h2 {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+#contato h2 {
+  margin: 0;
+}
+
+#contato p {
+  margin: 10px 0 0;
+}
