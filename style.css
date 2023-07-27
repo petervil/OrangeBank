@@ -5,12 +5,17 @@ body {
 }
 
 header {
-  background-color: #e08a08;
-  color: #fff;
-  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #e08a08;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+/* Estilos para a imagem do logo */
+.logo {
+  width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
 }
 
 header h1 {
@@ -25,7 +30,15 @@ nav ul {
 }
 
 nav li {
-  margin-left: 20px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+nav li:hover {
+  background-color: #f1bf40; /* Cor de fundo do botão ao passar o mouse */
+  padding: 5px;
+  border-radius: 10px; /* Arredondamento das bordas */
+  transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
 }
 
 nav li:first-child {
